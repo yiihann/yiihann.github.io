@@ -2,7 +2,8 @@
 title: California Housing Affordability Optimization
 date: 2025-12-31
 links:
-  - "type: site"
+  - type: site
+    url: ""
 tags: []
 ---
 
