@@ -1,6 +1,6 @@
 ---
 title: FX Analytics Dashboard
-date: 2023-10-26
+date: 2025-04-30
 links:
   - type: site
     url: ""

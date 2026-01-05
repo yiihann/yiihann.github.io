@@ -15,9 +15,10 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: |
-        Hi! I'm Yihan, a Data Science and Research Fellow at [McKinsey & Co.](https://www.mckinsey.com/). 
+        Hi! I'm Yihan, a Data Science and Research Fellow at [McKinsey & Company](https://www.mckinsey.com/). 
         
         I build analytics and AI-driven decision-support systems, turning ambiguous problems into scalable data products through machine learning, optimization, and LLM-based agentic systems.
+
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
