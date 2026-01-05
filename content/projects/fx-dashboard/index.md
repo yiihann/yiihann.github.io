@@ -5,6 +5,9 @@ links:
   - type: site
     url: "https://github.com/yiihann/fx-dashboard"
 tags: []
+# Featured image from static directory (bypasses Hugo image processing)
+# Path starts with / to reference static/ directory at site root
+featured_image: "/projects/fx-dashboard/featured.png"
 ---
 
 An **interactive analytics and forecasting dashboard** for global FX markets, combining time-series analysis with **LSTM-based return forecasting** to support exploratory analysis and short-horizon decision-oriented scenario evaluation.
