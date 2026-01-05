@@ -4,11 +4,21 @@ date: 2025-04-30
 links:
   - type: site
     url: "https://github.com/yiihann/fx-dashboard"
+  # - type: poster
+  #   url: "https://drive.google.com/file/d/1g4LkFs3duEcQ3DCxxL2uWGQloFIrUWo8/view?usp=drive_link"
+
+# Featured image - automatically displayed from featured.png
+image:
+  caption: 'Click the image below to view full poster'
+  focal_point: ""
+  preview_only: false
+
 tags: []
-# Featured image from static directory (bypasses Hugo image processing)
-# Path starts with / to reference static/ directory at site root
-featured_image: "/projects/fx-dashboard/featured.png"
 ---
+
+<a href="https://drive.google.com/file/d/1g4LkFs3duEcQ3DCxxL2uWGQloFIrUWo8/view?usp=drive_link" target="_blank">
+  <img src="featured.png" alt="FX Analytics Dashboard Poster" style="width: 100%; cursor: pointer;">
+</a>
 
 An **interactive analytics and forecasting dashboard** for global FX markets, combining time-series analysis with **LSTM-based return forecasting** to support exploratory analysis and short-horizon decision-oriented scenario evaluation.
 
