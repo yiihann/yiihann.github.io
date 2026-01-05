@@ -37,9 +37,11 @@ outputs:
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
-  quality: 90
+  quality: 100
   anchor: smart
   hint: picture
+  # Disable automatic resizing to preserve original resolution
+  # Images will be served at their original size unless explicitly resized
 timeout: 600000
 taxonomies:
   author: authors
