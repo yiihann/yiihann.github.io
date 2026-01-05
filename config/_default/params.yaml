@@ -7,10 +7,6 @@ hugoblox:
     description: |-
       Building production ML systems that deliver measurable business impact.
       Specializing in end-to-end analytics and AI-driven decision support.
-  branding:
-    # Site icon/favicon - place your favicon file in the static/ directory
-    # Common names: favicon.ico, favicon.png, or icon.png
-    # Hugo will automatically serve files from static/ at the root URL
   theme:
     mode: system
     pack: minimal
