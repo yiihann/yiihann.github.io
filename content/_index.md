@@ -14,7 +14,8 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
-      text: ''
+      text: |
+        Data Science and Research Fellow at [McKinsey & Company](https://www.mckinsey.com/). Builds analytics and AI-driven decision-support systems, turning ambiguous problems into scalable data products through machine learning, optimization, and LLM-based agentic systems.
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
