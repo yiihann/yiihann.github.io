@@ -109,6 +109,16 @@ skills:
         level: 4
       - label: "Dashboarding & Analytics Products"
         level: 5
+  - name: "Decision Science & Business Analytics"
+    items:
+      - label: "Problem Framing under Ambiguity"
+        level: 5
+      - label: "KPI Design & Metrics Definition"
+        level: 4
+      - label: "Scenario Modeling & Forecasting"
+        level: 4
+      - label: "Data-driven Decision Making"
+        level: 5
 languages:
   - name: "English"
     level: null
