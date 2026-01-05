@@ -3,7 +3,7 @@ title: FX Analytics Dashboard
 date: 2025-04-30
 links:
   - type: site
-    url: ""
+    url: "https://github.com/yiihann/fx-dashboard"
 tags: []
 ---
 

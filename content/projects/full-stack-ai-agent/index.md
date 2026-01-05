@@ -3,7 +3,7 @@ title: Full-Stack Agentic AI System for API Integration
 date: 2025-03-15
 links:
   - type: site
-    url: ""
+    url: "https://github.com/yiihann/full-stack-ai-agent"
 summary: ""
 draft: false
 tags: []

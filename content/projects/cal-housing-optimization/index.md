@@ -3,7 +3,7 @@ title: California Housing Affordability Optimization
 date: 2025-12-31
 links:
   - type: site
-    url: ""
+    url: "https://github.com/yiihann/cal-housing-optimization"
 tags: []
 ---
 
