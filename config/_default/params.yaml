@@ -12,7 +12,7 @@ hugoblox:
     pack: minimal
     colors:
       primary: "#003262"
-      secondary: ""
+      secondary: "#6FA3A8"
       neutral: ""
   typography:
     font: sans
