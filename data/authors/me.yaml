@@ -77,7 +77,7 @@ experience:
     end: "2023-11-24"
     summary: ""
 skills:
-  - name: "Technical Skills"
+  - name: "Core Technical Skills"
     items:
       - label: "Python"
         level: 5
@@ -85,38 +85,20 @@ skills:
         level: 5
       - label: "Machine Learning"
         level: 5
-      - label: "Optimization"
-        level: 4
-      - label: "Statistical Modeling"
-        level: 4
-  - name: "AI & LLM Systems"
-    items:
-      - label: "LLM-based Agentic Systems"
-        level: 4
-      - label: "Prompt Engineering & Evaluation"
-        level: 4
-      - label: "AI-powered Decision Support Systems"
-        level: 4
-      - label: "Retrieval-Augmented Generation (RAG)"
-        level: 3
+
   - name: "Data & Analytics Engineering"
     items:
       - label: "End-to-End Data Pipelines (ETL / ELT)"
         level: 5
       - label: "Analytics Engineering & Data Modeling"
         level: 5
-      - label: "API Integration & Automation"
-        level: 4
       - label: "Dashboarding & Analytics Products"
         level: 5
-  - name: "Decision Science & Business Analytics"
+
+  - name: "Decision Science & Product Thinking"
     items:
       - label: "Problem Framing under Ambiguity"
         level: 5
-      - label: "KPI Design & Metrics Definition"
-        level: 4
-      - label: "Scenario Modeling & Forecasting"
-        level: 4
       - label: "Data-driven Decision Making"
         level: 5
 languages:
