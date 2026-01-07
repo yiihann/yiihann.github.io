@@ -15,9 +15,15 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: |
-        Hi! I'm Yihan, a Data Science and Research Fellow at [McKinsey & Company](https://www.mckinsey.com/). 
+        Hi! I'm Yihan - thanks for stopping by!
         
-        I build analytics and AI-driven decision-support systems, turning ambiguous problems into scalable data products through machine learning, optimization, and LLM-based agentic systems.
+        I'm currently a Data Science and Research Fellow at [McKinsey & Company](https://www.mckinsey.com/), working with the [People & Organizational Performance (POP) practice](https://www.mckinsey.com/capabilities/people-and-organizational-performance/how-we-help-clients) on workforce AI. I build analytics and AI tools that support real organizational decisions.
+        
+        I recently graduated from [UC Berkeley](https://www.berkeley.edu/), where I studied [analytics](https://analytics.berkeley.edu/) and served as a [student ambassador](https://analytics.berkeley.edu/success-story/3440/). 
+        
+        I enjoy building tools that automate repetitive manual work and use analysis or AI to help people explore problems more clearly — often through simple visuals or interactive workflows that lead to real “aha” moments.
+
+        I’m always interested in thoughtful side projects and conversations. Feel free to reach out and connect!
 
       # Show a call-to-action button under your biography? (optional)
       button:
