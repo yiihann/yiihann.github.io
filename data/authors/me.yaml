@@ -86,16 +86,16 @@ skills:
       - label: "Machine Learning"
         level: 5
 
-  - name: "Data & Analytics Engineering"
+  - name: "Data & AI Systems"
     items:
-      - label: "End-to-End Data Pipelines (ETL / ELT)"
+      - label: "Workflow Automation"
         level: 5
-      - label: "Analytics Engineering & Data Modeling"
+      - label: "Analytical Modeling"
         level: 5
-      - label: "Dashboarding & Analytics Products"
+      - label: "Analytics & AI Tools"
         level: 5
 
-  - name: "Decision Science & Product Thinking"
+  - name: "Product & Problem Thinking"
     items:
       - label: "Problem Framing under Ambiguity"
         level: 5
