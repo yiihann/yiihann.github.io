@@ -39,7 +39,7 @@ education:
     button:
       text: "Leadership Award"
       url: "https://drive.google.com/file/d/1hfqdWYdHgQohmZTWj59Rvf7u7CAU71_b/view?usp=drive_link"
-      icon: "hero/award"
+      icon: "hero/trophy"
   - degree: "B.S. in Mathematics and Physics"
     institution: "Tsinghua University"
     start: "2020-09-01"
