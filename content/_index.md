@@ -15,14 +15,14 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: |
-        Hi! I'm Yihan - thanks for stopping by!
+        Hi! I'm Yihan - thanks for stopping by.
         
         I'm currently a Data Science and Research Fellow at [McKinsey & Company](https://www.mckinsey.com/), working with the [People & Organizational Performance (POP) practice](https://www.mckinsey.com/capabilities/people-and-organizational-performance/how-we-help-clients) on workforce AI. 
-        
-        My work focuses on building analytics and AI tools that support real organizational decisions. I care most about building tools that support people’s thinking - not replace it. In practice, this means automating repetitive work and using analysis or AI to help people explore problems more clearly through simple visuals or interactive workflows.
 
-        I’m always interested in thoughtful side projects and conversations. Feel free to reach out and connect!
+        My background spans financial services, manufacturing R&D, and consulting. Across these settings, I’ve worked hands-on with production data pipelines, applied machine learning models, and decision-support tools. I’m especially interested in designing systems that automate low-value work while helping people think more clearly — through structured analysis, thoughtful visuals, and interactive workflows.
 
+        I always enjoy meeting new people and having thoughtful conversations — feel free to reach out and say hi!
+# I build analytics and AI tools that support real organizational decisions, with a focus on supporting people’s thinking rather than replacing it. In practice, this often means automating repetitive work and using analysis or AI to help people explore problems more clearly through simple visuals or interactive workflows.
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download Resume
