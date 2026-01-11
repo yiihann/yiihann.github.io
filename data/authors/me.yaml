@@ -11,7 +11,7 @@ name:
 status:
   icon: "🌉"
 role: "Data Scientist"
-bio: "Data Science and Research Fellow at [McKinsey & Company](https://www.mckinsey.com/). Builds analytics and AI-driven decision-support systems, turning ambiguous problems into scalable data products through machine learning, optimization, and LLM-based agentic systems."
+bio: "Data Science and Research Fellow at [McKinsey & Company](https://www.mckinsey.com/). Designs analytics and AI systems that help people make clearer decisions under complexity."
 affiliations:
   - name: "McKinsey & Company"
     url: "https://www.mckinsey.com/"
