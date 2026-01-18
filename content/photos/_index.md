@@ -11,7 +11,5 @@ sections:
     content:
       title: Random Moments
       text: |
-        📸
-
         {{< gallery >}}
 ---
