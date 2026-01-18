@@ -10,8 +10,8 @@ sections:
   - block: markdown
     content:
       title: Random Moments
-      # text: |
-      #   Random Moments from my everyday life.
+      text: |
+        Small, unplanned moments from my everyday life.
 
         {{< gallery >}}
 ---
