@@ -11,7 +11,7 @@ sections:
     content:
       title: Random Moments
       text: |
-        Small, unplanned moments from my everyday life.
+        📸
 
         {{< gallery >}}
 ---
