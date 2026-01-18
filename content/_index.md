@@ -17,9 +17,9 @@ sections:
       text: |
         Hi there, I'm Yihan - thanks for stopping by!
         
-        I'm currently a Data Science and Research Fellow at [McKinsey & Company](https://www.mckinsey.com/), working with the [People & Organizational Performance (POP)](https://www.mckinsey.com/capabilities/people-and-organizational-performance/how-we-help-clients) team on workforce AI. 
+        I'm currently a Data Science and Research Fellow at [McKinsey & Company](https://www.mckinsey.com/), working with the [People & Organizational Performance (POP)](https://www.mckinsey.com/capabilities/people-and-organizational-performance/how-we-help-clients) team on AI-driven workforce transformation. My work focuses on building LLM-powered agents, chat-based analytics tools, and end-to-end AI systems that support real organizational and talent decisions.
 
-        My background spans financial services, manufacturing R&D, and consulting. Across these settings, I’ve worked hands-on with production data pipelines, applied machine learning models, and decision-support tools. I’m especially interested in designing systems that automate low-value work while helping people think more clearly - through structured analysis, thoughtful visuals, and interactive workflows.
+        My background spans financial services, manufacturing R&D, and consulting. Across these settings, I’ve built production AI pipelines, decision-support agents, and analytics platforms, with a focus on automating low-value work and augmenting human judgment rather than replacing it - often through interactive workflows, natural-language interfaces, and decision-focused visualizations.
 
         I always enjoy meeting new people and having thoughtful conversations - feel free to reach out and say hi!
 # I build analytics and AI tools that support real organizational decisions, with a focus on supporting people’s thinking rather than replacing it. In practice, this often means automating repetitive work and using analysis or AI to help people explore problems more clearly through simple visuals or interactive workflows.
