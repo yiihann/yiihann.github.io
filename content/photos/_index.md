@@ -9,9 +9,9 @@ design:
 sections:
   - block: markdown
     content:
-      title: Daily Life
+      # title: Daily Life
       text: |
-        Moments from my daily life that I love.
+        Random moments from my everyday life.
 
         {{< gallery >}}
 ---
