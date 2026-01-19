@@ -1,13 +1,25 @@
 {{ $images := .Page.Resources.ByType "image" }}
 {{ $images = sort $images "Name" }}
+{{ $manualCaptions := index site.Data "photos" "photos" }}
 {{ if $images }}
 <div class="grid grid-cols-2 md:grid-cols-3 gap-4 my-6 items-start">
   {{ range $images }}
     {{ $oriented := . | images.Filter images.AutoOrient }}
     {{ $thumb := $oriented.Fit "800x800" }}
-    <a href="{{ $oriented.RelPermalink }}" class="block overflow-hidden rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500" target="_blank" rel="noopener">
-      <img src="{{ $thumb.RelPermalink }}" alt="{{ .Name }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" class="w-full h-auto hover:opacity-90 transition" loading="lazy" />
-    </a>
+    {{ $caption := index $manualCaptions .Name }}
+    {{ if not $caption }}
+      {{/* Auto-generate caption from filename: remove extension, then remove leading numbers and separators */}}
+      {{ $nameWithoutExt := replaceRE `\.[^.]+$` "" .Name }}
+      {{ $caption = $nameWithoutExt | replaceRE `^[0-9]+[.\- ]*` "" | trim }}
+    {{ end }}
+    <div class="flex flex-col">
+      <a href="{{ $oriented.RelPermalink }}" class="block overflow-hidden rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500" target="_blank" rel="noopener">
+        <img src="{{ $thumb.RelPermalink }}" alt="{{ .Name }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" class="w-full h-auto hover:opacity-90 transition" loading="lazy" />
+      </a>
+      {{ if $caption }}
+      <p class="mt-2 text-sm text-gray-600 dark:text-gray-400 text-center">{{ $caption }}</p>
+      {{ end }}
+    </div>
   {{ end }}
 </div>
 {{ end }}

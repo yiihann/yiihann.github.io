@@ -1,0 +1,14 @@
+# Photo captions (optional overrides)
+# Captions are automatically generated from filenames by removing:
+# - File extensions (e.g., .jpg, .png)
+# - Leading numbers and separators (e.g., "01. ", "02-")
+#
+# Example: "01. Tahoe.jpg" → caption: "Tahoe"
+#
+# If you want to override the auto-generated caption for a specific photo,
+# add it here. The key is the image filename (e.g., "01. Tahoe.jpg")
+# and the value is your custom caption text.
+
+photos:
+  # Example override:
+  # "01. Tahoe.jpg": "Lake Tahoe at sunset"
