@@ -12,8 +12,8 @@
       {{ $nameWithoutExt := replaceRE `\.[^.]+$` "" .Name }}
       {{ $caption = $nameWithoutExt | replaceRE `^[0-9]+[.\- ]*` "" | strings.TrimSpace }}
     {{ end }}
-    <div class="flex flex-col">
-      <a href="{{ $oriented.RelPermalink }}" class="block overflow-hidden rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500" target="_blank" rel="noopener">
+    <div class="flex flex-col -my-2">
+      <a href="{{ $oriented.RelPermalink }}" class="block overflow-hidden rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 -my-2" target="_blank" rel="noopener">
         <img src="{{ $thumb.RelPermalink }}" alt="{{ .Name }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" class="w-full h-auto hover:opacity-90 transition" loading="lazy" />
       </a>
       {{ if $caption }}
