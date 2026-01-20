@@ -2,7 +2,7 @@
 {{ $images = sort $images "Name" }}
 {{ $manualCaptions := index site.Data "photos" "photos" }}
 {{ if $images }}
-<div class="grid grid-cols-2 md:grid-cols-3 gap-4 my-6 items-start">
+<div class="grid grid-cols-2 md:grid-cols-3 gap-2 my-6 items-start">
   {{ range $images }}
     {{ $oriented := . | images.Filter images.AutoOrient }}
     {{ $thumb := $oriented.Fit "800x800" }}
@@ -17,7 +17,7 @@
         <img src="{{ $thumb.RelPermalink }}" alt="{{ .Name }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" class="w-full h-auto hover:opacity-90 transition" loading="lazy" />
       </a>
       {{ if $caption }}
-      <p class="mt-1 text-sm text-gray-600 dark:text-gray-400 text-center">{{ $caption }}</p>
+      <p class="mt-0.5 text-sm text-gray-600 dark:text-gray-400 text-center">{{ $caption }}</p>
       {{ end }}
     </div>
   {{ end }}
