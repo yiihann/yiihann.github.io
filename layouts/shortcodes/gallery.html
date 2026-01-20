@@ -10,7 +10,7 @@
     {{ if not $caption }}
       {{/* Auto-generate caption from filename: remove extension, then remove leading numbers and separators */}}
       {{ $nameWithoutExt := replaceRE `\.[^.]+$` "" .Name }}
-      {{ $caption = $nameWithoutExt | replaceRE `^[0-9]+[.\- ]*` "" | trimspace }}
+      {{ $caption = $nameWithoutExt | replaceRE `^[0-9]+[.\- ]*` "" | strings.TrimSpace }}
     {{ end }}
     <div class="flex flex-col">
       <a href="{{ $oriented.RelPermalink }}" class="block overflow-hidden rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500" target="_blank" rel="noopener">
