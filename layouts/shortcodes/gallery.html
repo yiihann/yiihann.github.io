@@ -13,8 +13,8 @@
       {{ $caption = $nameWithoutExt | replaceRE `^[0-9]+[.\- ]*` "" | strings.TrimSpace }}
     {{ end }}
     <div class="flex flex-col">
-      <a href="{{ $oriented.RelPermalink }}" class="block rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500" target="_blank" rel="noopener">
-        <img src="{{ $thumb.RelPermalink }}" alt="{{ .Name }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" class="w-full h-auto hover:opacity-90 transition" loading="lazy" />
+      <a href="{{ $oriented.RelPermalink }}" class="block rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 p-0 m-0" target="_blank" rel="noopener">
+        <img src="{{ $thumb.RelPermalink }}" alt="{{ .Name }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" class="w-full h-auto hover:opacity-90 transition block" loading="lazy" />
       </a>
       {{ if $caption }}
       <p class="mt-1 text-sm text-gray-600 dark:text-gray-400 text-center">{{ $caption }}</p>
