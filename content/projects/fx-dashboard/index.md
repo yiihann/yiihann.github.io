@@ -4,8 +4,7 @@ date: 2025-04-30
 links:
   - type: site
     url: "https://github.com/yiihann/fx-dashboard"
-  # - type: poster
-  #   url: "https://drive.google.com/file/d/1g4LkFs3duEcQ3DCxxL2uWGQloFIrUWo8/view?usp=drive_link"
+# weight: 1
 
 tags: []
 ---

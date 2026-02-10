@@ -16,6 +16,9 @@ sections:
       filters:
         folders:
           - projects
+      # Order: 'Date' (newest first), 'Title' (A–Z), or 'Weight' (use weight in each project's index.md)
+      sort_by: 'Date'
+      sort_ascending: false
     design:
       view: article-grid
       fill_image: false

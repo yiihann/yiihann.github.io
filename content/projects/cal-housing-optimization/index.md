@@ -1,6 +1,6 @@
 ---
 title: California Housing Affordability Optimization
-date: 2025-12-31
+date: 2024-12-31
 links:
   - type: site
     url: "https://github.com/yiihann/cal-housing-optimization"
