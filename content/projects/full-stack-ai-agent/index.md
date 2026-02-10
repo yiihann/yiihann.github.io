@@ -1,5 +1,5 @@
 ---
-title: Full-Stack Agentic AI System for API Integration
+title: Full-Stack AI Agent for API Integration
 date: 2025-03-15
 links:
   - type: site

@@ -1,5 +1,5 @@
 ---
-title: FX Analytics Dashboard
+title: FX Analytics and Forecasting Dashboard
 date: 2025-04-30
 links:
   - type: site
