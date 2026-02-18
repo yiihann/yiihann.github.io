@@ -1,5 +1,5 @@
 ---
-title: Demand–Staffing Optimizer
+title: Demand-Staffing Optimizer
 date: 2025-02-10
 links:
   - type: pdf
