@@ -13,5 +13,6 @@ sections:
       text: |
         {{< gallery >}}
 
-        <p class="text-center text-sm text-gray-500 dark:text-gray-400 mt-4">Taken a.s. with <a href="https://accelerator-thu.github.io/" target="_blank" rel="noopener" class="underline hover:text-gray-700 dark:hover:text-gray-300">Yufan</a></p>
+        <hr class="border-t border-gray-300 dark:border-gray-700 my-4" />
+        <p class="text-center text-sm text-gray-500 dark:text-gray-400">ft. <a href="https://accelerator-thu.github.io/" target="_blank" rel="noopener" class="underline hover:text-gray-700 dark:hover:text-gray-300">Yufan</a></p>
 ---
