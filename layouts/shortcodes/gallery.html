@@ -25,7 +25,7 @@
       {{ $caption = replaceRE `\.[^.]+$` "" $img.Name | strings.TrimSpace }}
     {{ end }}
     <div class="group relative flex flex-col items-center hover:z-50">
-      <div class="relative w-full">
+      <a href="{{ $oriented.RelPermalink }}" target="_blank" rel="noopener" class="relative w-full block">
         <img src="{{ $thumb.RelPermalink }}" alt="{{ $caption }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" class="w-full" loading="lazy" />
         {{/* Hover preview — inset-0 relative to the thumbnail wrapper only */}}
         <div class="pointer-events-none absolute inset-0 z-50 flex items-center justify-center
@@ -37,7 +37,7 @@
           <img src="{{ $preview.RelPermalink }}" alt="{{ $caption }}" width="{{ $preview.Width }}" height="{{ $preview.Height }}"
                style="width: {{ $previewWidth }}; height: auto; max-width: none; border: 1.5px solid rgba(128,128,128,0.5);" />
         </div>
-      </div>
+      </a>
       {{ if $caption }}
       <div class="text-xs text-gray-500 dark:text-gray-400 text-center mt-1">{{ $caption }}</div>
       {{ end }}
