@@ -19,7 +19,7 @@ hugoblox:
     size: md
   layout:
     radius: md
-    spacing: comfortable
+    spacing: compact
     avatar_shape: circle
   header:
     enable: true

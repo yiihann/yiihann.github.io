@@ -1,23 +1,45 @@
-{{ $images := .Page.Resources.ByType "image" }}
-{{ $images = sort $images "Name" }}
+{{ $allImages := .Page.Resources.ByType "image" }}
 {{ $manualCaptions := index site.Data "photos" "photos" }}
-{{ if $images }}
-<div class="grid grid-cols-2 md:grid-cols-3 gap-3 my-6 items-start">
-  {{ range $images }}
-    {{ $oriented := . | images.Filter images.AutoOrient }}
-    {{ $thumb := $oriented.Fit "800x800" }}
-    {{ $caption := index $manualCaptions .Name }}
+
+{{/* Build sortable slice — use EXIF date, fall back to zero time */}}
+{{ $items := slice }}
+{{ range $allImages }}
+  {{ $supported := in (slice "image/jpeg" "image/png" "image/gif" "image/webp") .MediaType.Type }}
+  {{ if $supported }}
+    {{ $date := time "0001-01-01" }}
+    {{ with .Exif }}{{ with .Date }}{{ $date = . }}{{ end }}{{ end }}
+    {{ $items = $items | append (dict "img" . "date" $date) }}
+  {{ end }}
+{{ end }}
+{{ $items = sort $items "date" }}
+
+{{ if $items }}
+<div class="not-prose grid grid-cols-3 md:grid-cols-6 gap-2 my-4 items-start overflow-visible">
+  {{ range $items }}
+    {{ $img := .img }}
+    {{ $oriented := $img | images.Filter images.AutoOrient }}
+    {{ $thumb   := $oriented.Fill "280x280 Center" }}
+    {{ $preview := $oriented.Fit  "700x700" }}
+    {{ $caption := index $manualCaptions $img.Name }}
     {{ if not $caption }}
-      {{/* Auto-generate caption from filename: remove extension, then remove leading numbers and separators */}}
-      {{ $nameWithoutExt := replaceRE `\.[^.]+$` "" .Name }}
-      {{ $caption = $nameWithoutExt | replaceRE `^[0-9]+[.\- ]*` "" | strings.TrimSpace }}
+      {{ $caption = replaceRE `\.[^.]+$` "" $img.Name | strings.TrimSpace }}
     {{ end }}
-    <div class="flex flex-col">
-      <a href="{{ $oriented.RelPermalink }}" class="block rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 p-0 m-0" target="_blank" rel="noopener">
-        <img src="{{ $thumb.RelPermalink }}" alt="{{ .Name }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" class="w-full h-auto hover:opacity-90 transition block mb-1" loading="lazy" />
-      </a>
+    <div class="group relative flex flex-col items-center hover:z-50">
+      <div class="relative w-full">
+        <img src="{{ $thumb.RelPermalink }}" alt="{{ $caption }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" class="w-full" loading="lazy" />
+        {{/* Hover preview — inset-0 relative to the thumbnail wrapper only */}}
+        <div class="pointer-events-none absolute inset-0 z-50 flex items-center justify-center
+                    invisible opacity-0
+                    group-hover:visible group-hover:opacity-100
+                    transition-opacity duration-150">
+          {{ $previewWidth := "150%" }}
+          {{ if gt $preview.Width $preview.Height }}{{ $previewWidth = "200%" }}{{ end }}
+          <img src="{{ $preview.RelPermalink }}" alt="{{ $caption }}" width="{{ $preview.Width }}" height="{{ $preview.Height }}"
+               style="width: {{ $previewWidth }}; height: auto; max-width: none; border: 1.5px solid rgba(128,128,128,0.5);" />
+        </div>
+      </div>
       {{ if $caption }}
-      <p class="text-sm text-gray-600 dark:text-gray-400 text-center">{{ $caption }}</p>
+      <div class="text-xs text-gray-500 dark:text-gray-400 text-center mt-1">{{ $caption }}</div>
       {{ end }}
     </div>
   {{ end }}
