@@ -1,5 +1,5 @@
 ---
-title: Demand-Staffing Optimizer
+title: Demand Forecasting for Staffing Decisions
 date: 2025-02-10
 links:
   - type: pdf
@@ -10,7 +10,7 @@ links:
 tags: []
 ---
 
-A **demand forecasting and dynamic staffing optimization pipeline** for capacity planning, combining **time-series forecasting** (7-day moving average + Prophet) with a **Genetic Algorithm (GA)** to produce hire/fire decisions that maximize net profit under real-world constraints: 60-day service backlog, 1-month agent ramp-up, and labor efficiency.
+How should a service team adjust headcount when demand shifts, new hires take a month to ramp up, and requests can stay in the backlog for up to 60 days? I used Prophet to forecast demand and a genetic algorithm to compare hiring and staffing plans by projected net profit, accounting for labor costs and revenue lost to unmet demand.
 
 The system guides the user from raw event data through **aggregation and MA7 smoothing**, **Prophet-based demand forecasts** (with optional per-region calibration and grid search), and **GA-driven staffing plans** that balance revenue, salary, hiring/firing costs, and lost revenue from unmet demand—enabling scenario-based capacity planning with a 60-day backlog and 1-month agent ramp.
 
