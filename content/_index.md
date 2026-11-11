@@ -17,9 +17,11 @@ sections:
       text: |
         Hi there, I'm Yihan - thanks for stopping by!
         
-        I'm currently a Data Science and Research Fellow at [McKinsey & Company](https://www.mckinsey.com/), working with the [People & Organizational Performance (POP)](https://www.mckinsey.com/capabilities/people-and-organizational-performance/how-we-help-clients) team on AI-driven workforce transformation. My work focuses on building LLM-powered agents, chat-based analytics tools, and end-to-end AI systems that support real organizational and talent decisions.
+        I’m a Machine Learning Engineer on TikTok’s E-commerce LIVE team, where I build LLM-powered recommendation systems. My work on LLMs for recommendation (LLM4Rec) includes continued pretraining (CPT), supervised fine-tuning (SFT), and chain-of-thought (CoT) approaches.
 
-        My background spans financial services, manufacturing R&D, and consulting. Across these settings, I’ve built production AI pipelines, decision-support agents, and analytics platforms, with a focus on automating low-value work and augmenting human judgment rather than replacing it - often through interactive workflows, natural-language interfaces, and decision-focused visualizations.
+        I designed an LLM-based labeling system for LIVE creators and increased livestreaming time by 3% among creators with more than 5,000 in seven-day gross merchandise value (GMV). I use business metrics like creator activity to guide what I build and measure whether it works.
+
+        Previously, I was a Data Science and Research Fellow at [McKinsey & Company](https://www.mckinsey.com/), where I built analytics and AI tools for workforce and talent decisions.
 
         I always enjoy meeting new people and having thoughtful conversations - feel free to reach out and say hi!
 # I build analytics and AI tools that support real organizational decisions, with a focus on supporting people’s thinking rather than replacing it. In practice, this often means automating repetitive work and using analysis or AI to help people explore problems more clearly through simple visuals or interactive workflows.

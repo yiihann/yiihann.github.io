@@ -4,7 +4,7 @@ This repository contains the source code for my personal career portfolio websit
 
 ## About
 
-I'm a Data Science and Research Fellow at [McKinsey & Company](https://www.mckinsey.com/), working on building production ML systems that deliver measurable business impact. I specialize in end-to-end analytics and AI-driven decision support, turning ambiguous problems into scalable data products through machine learning, optimization, and LLM-based agentic systems.
+I’m a Machine Learning Engineer on TikTok’s E-commerce LIVE team, where I build LLM-powered recommendation systems. My work on LLMs for recommendation (LLM4Rec) includes continued pretraining (CPT), supervised fine-tuning (SFT), and chain-of-thought (CoT) approaches.
 
 This website showcases my projects, work experience, and professional accomplishments.
 

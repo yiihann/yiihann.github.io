@@ -10,11 +10,11 @@ name:
   pronouns: "she/her"
 status:
   icon: "🌉"
-role: "Data Scientist"
-bio: "Data Science and Research Fellow at [McKinsey & Company](https://www.mckinsey.com/). Designs analytics and AI systems that help people make clearer decisions under complexity."
+role: "Machine Learning Engineer"
+bio: "Machine Learning Engineer on TikTok’s E-commerce LIVE team, building LLM-powered recommendation systems and measuring their impact on creator activity."
 affiliations:
-  - name: "McKinsey & Company"
-    url: "https://www.mckinsey.com/"
+  - name: "TikTok"
+    url: "https://www.tiktok.com/"
 links:
   - icon: "hero/at-symbol"
     url: "mailto:yihan.zhou427@gmail.com"
@@ -27,8 +27,8 @@ links:
     url: "https://www.instagram.com/zoe_zyiih?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr"
     label: "Instagram"
 interests:
-  - "LLM-based Agentic Systems"
-  - "Decision Support Systems"
+  - "Recommender Systems"
+  - "Large Language Models"
   - "Applied Machine Learning"
 education:
   - degree: "M.S. in Analytics"
@@ -51,10 +51,15 @@ education:
     end: "2024-06-30"
     summary: "B.Eng. in [Civil Engineering and Systems](https://www.civil.tsinghua.edu.cn/en/) at [Tsinghua University](https://www.tsinghua.edu.cn/en/), with a focus on systems engineering, optimization, and computational problem-solving in large-scale, real-world settings."
 experience:
+  - role: "Machine Learning Engineer"
+    org: "E-commerce LIVE, TikTok"
+    start: "2026-05-01"
+    end: ""
+    summary: "I’m a Machine Learning Engineer on TikTok’s E-commerce LIVE team, where I build LLM-powered recommendation systems. My work on LLMs for recommendation (LLM4Rec) includes continued pretraining (CPT), supervised fine-tuning (SFT), and chain-of-thought (CoT) approaches. I designed an LLM-based labeling system for LIVE creators and increased livestreaming time by 3% among creators with more than 5,000 in seven-day gross merchandise value (GMV)."
   - role: "Data Science and Research Fellow"
     org: "People & Organizational Performance, McKinsey & Company"
     start: "2025-09-05"
-    end: ""
+    end: "2026-04-01"
     summary: "Data Science and Research Fellow at [McKinsey & Company](https://www.mckinsey.com/), working on building end-to-end analytics and agentic decision-support systems for organizational and talent-related problems, with a focus on automation and human-in-the-loop decisions."
   - role: "Data Science Intern"
     org: "Research & Development Group, Gotion Inc."
